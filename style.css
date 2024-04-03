@@ -270,7 +270,7 @@ img{
 #sc4 h1{
     font-size: 20px;
     margin-top: 3em;
-    color: white;
+    color: black;
     position: absolute;
     left: 44em;
 }
@@ -283,7 +283,7 @@ img{
    text-align: left;
    margin-top: 6em;
    margin-right: 2em ;
-   color: white;
+   color: black;
 }
 #sc5{
     display: flex;
@@ -343,7 +343,7 @@ img{
 #sc6 h1{
    font-size: 25px;
    margin-top: 3em;
-   color: rgb(255, 255, 255);
+   color: black;
    position: absolute;
    right: 12em;
 }
@@ -358,7 +358,7 @@ img{
    text-align: left;
    margin-top: 8em;
    margin-right: 2em ;
-   color: white;
+   color: black;
 }
 .ud{
     margin-top: 3em;
@@ -1211,7 +1211,7 @@ footer  p{
         height: auto;
         margin-top: 7em;
         margin-left: 25%;
-        border: solid red 2px;
+       
     }
     #sc9 h1 {
 
@@ -1259,18 +1259,18 @@ footer  p{
     #sc11 .tres{
         width: 40%;
         height: auto; 
-        border: solid red 2px;
+        
     }
     #sc11 .dos{
         width: 40%;
         height: auto;
-        border: solid red 2px;
+        
         
     }
     #sc11 .uno   {
         width: 40%;
         height: auto;
-        border: solid red 2px;
+       
         margin: 0em;
         margin-bottom: 5em;
         
