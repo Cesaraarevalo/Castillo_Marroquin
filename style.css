@@ -20,7 +20,8 @@ p{
     padding: 0 0% 0 0;
     box-sizing: border-box;}
 #sc1{
-    height: 700px;
+    width: 100%;
+   
     background-color: black;
 }
 #sc1 video{
@@ -33,64 +34,68 @@ p{
     filter: brightness(0.9)   grayscale(50%);    
 }
 #eee{
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 190px;
-    background-color: #1f2124;
-    filter: opacity(40%);
+    background-color: rgba(17, 17, 17, 0.6);
+   /* filter: opacity(40%);*/
     position: absolute;
-    bottom: 30em;
+    top:2em;
+   
 }
-menu{
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    color: #ffff;
-    align-items: center ;
-    margin-top: 0em;
+.menu1{
+    font-size: 36px;
+    color: white;
     position: relative;
+    text-align: center;
     z-index: 2;
+    justify-content: space-around;
 }
-menu img{
-    width: 85px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-   margin-left: 1em;
-   margin-right: 1em;
-} 
-menu ul{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    margin-left: -9em;
-    justify-content: space-between;
-}
-menu .logo{
+
+.logo {
     box-shadow: 2px 2px 10px;
     color: black;
     position: relative; 
-    bottom: 43em; 
+    width: 7% ;
 }
-menu ul a{
+nav{
+    
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+   
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul a{
     text-decoration: none;
     color: #ffff;
     transition: color 1s linear;
     
 }
-menu ul a:hover {
+nav ul a:hover {
     color: #ee0101;
     cursor: pointer;
   }
-menu ul a li{
+  nav ul a li{
     text-decoration: none;
     list-style: none;
 }
-menu ul a li{
+nav ul a li{
     font-size: 19px;
 }
-.menu1{
-    position: relative;
-    bottom: 17em;
-    left: 13em;
-}
+
 #sc2{
     display: flex;
     height: 780px;
@@ -158,9 +163,6 @@ menu ul a li{
 }
 
 
-img{
-    width: 100%;
-}
 #sc3 div{
     text-align: center;
 }
@@ -535,32 +537,27 @@ footer  p{
        
     }
     #eee{
-        width: 100%;
-        height: 10%;
-        position: absolute;
-        top: 6%;
-    }
-    .menu1 {
-        font-size: 16px;
-        position: absolute;
-        left: 30%;
-    }
-    menu{
-        width: 100%;
-        justify-content: space-evenly;
+       
+       flex-direction: column;
+       gap: 2em;
+      top: -2em;
     }
     
-    menu ul a li{
-        font-size: 11px;
-        margin: 1em;
-        width: 9em;
+    .logo{
+        width: 12%;
     }
-    menu img {
-        width: 70px;
+    .menu1{
+        font-size: 12px;
     }
-    menu ul {
-        margin-right: 11em;
-        text-align: center;
+   
+    
+    
+    nav ul {
+
+        flex-direction: column;
+        gap: 1em;
+        margin-bottom: 1em;
+        
     }
     #sc2{
       
@@ -616,7 +613,8 @@ footer  p{
         margin-bottom: 7em;
     }
     #sc3 p{
-        margin-bottom: 0em;
+        margin-bottom: 2em;
+        
     }
     #sc3 img {
         width: 70%;
@@ -641,53 +639,56 @@ footer  p{
     #sc4 h1 {
         font-size: 18px;
         margin-top: 2em;
-        margin-left: -35%;
+        left: 5em;
     
         text-align: center;
     }
     #sc4 p {
         font-size: 16px;
-        width: 100%;
-        padding: 1em;
+        width: 80%;
+        
        text-align: center;
        margin-top: 8em;
+       margin-left: 2em;
         
     }
     #sc5 {
-        height: 67em;
+        height: 83em;
         text-align: center;
         display: inline-table;
     }
     #sc5 img {
-        width: 50%;
+        width: 40%;
         height: auto;
         margin-top: 2em;
+        
        
     }
     #sc5 h1 {
         font-size: 18px;
         margin-top: 2em;
-        margin-left: 5%;
-        margin-right: 5%;
+       
         text-align: center;
     }
     #sc5 p {
-        font-size: 16px;
-        width: 100%;
+        font-size: 17px;
+        width: 80%;
         margin-top: 2em;
        padding: 2em;
         text-align: center;
     }
+
+
     #sc6 {
         background-size: 400em;
         background-position-x: -140em;
         text-align: center;
         display: inline-table;
 
-        height: 72em;
+        height: 75em;
     }
     #sc6 img {
-        width: 90%;
+        width: 80%;
         height: auto;
         margin-top: 2em;
         margin-left: 5%;
@@ -697,7 +698,7 @@ footer  p{
         font-size: 16px;
         text-align: center;
         
-        left: -1em;
+        left: 0.5em;
         
     }
     #sc6 p {
@@ -706,7 +707,7 @@ footer  p{
        text-align: center;
        padding: 3em;
        position: absolute;
-       left: 1em;
+       left: 2em;
     }
     .ud {
         text-align: center;
@@ -716,10 +717,8 @@ footer  p{
     }
     .ud h1 {
         font-size: 30px;
-        margin-left: -20em;
         margin-top: 2em;
-        
-        
+        left: 3em;
         top: 0;
     }
     .ud img{
@@ -730,7 +729,8 @@ footer  p{
         font-size: 17px;
         padding-inline: 1em;
         margin-top: 10em ;
-        margin-left: -26em;
+        left: 3em ;
+      
         color: black;
         
     }
@@ -748,8 +748,7 @@ footer  p{
         font-size: 16px;
         width: 90%;
         margin-top: 2em;
-        margin-left: 5%;
-        margin-right: 5%;
+        
         text-align: justify;
     }
     #sc8{
@@ -772,32 +771,34 @@ footer  p{
       
     }
     #sc9 .mm {
-        width: 50%;
+        width: 20%;
         height: auto;
         margin-top: 2em;
-        margin-left: 25%;
+        margin-left: 13em;
+       
         
     }
     
     #sc9 img {
-        width: 50%;
+        
+        width: 20%;
         height: auto;
-        margin-top: 7em;
-        margin-left: 25%;
+        margin-top: 4em;
+        margin-left: 13em;
         
     }
     #sc9 h1 {
 
         font-size: 30px;
-        position: absolute;
-        top: 89em;
-        left: 8em;
+        position: relative;
+        bottom: 2em;
+        left: -1em;
     }
     #sc9 p {
         font-size: 16px;
-        width: 100%;
+        width: 80%;
         height: 12em;
-        margin-top: 2em;
+        margin-top: 1em;
        padding: 1em;
         text-align: center;
     }
@@ -808,17 +809,16 @@ footer  p{
         text-align: center;
     }
     #sc10 img {
-        width: 90%;
+        width: 77%;
         height: auto;
        
         margin-left: 5%;
     }
     #sc10 p {
         font-size: 16px;
-        width: 90%;
+        width: 80%;
         margin-top: 2em;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 1em;
         text-align: justify;
         text-align: center;
     }
@@ -883,14 +883,7 @@ footer  p{
 
 
 
-    body{
-       width: 46.8%;
-      
-     }
-        *{
-            margin: 0;
-            padding: 0% 0% 0% 0%;
-            box-sizing: border-box;}
+    
         
         #sc1 {
            
@@ -898,67 +891,54 @@ footer  p{
          font-size: 16px; 
          
         }
+      
+        #eee{
        
+            flex-direction: column;
+            gap: 2em;
+        }     
+
+        .logo{
+            width: 15%;
+        }
         
- #eee{
-     width: 46.8%;
-     height: 116px;
-     position: absolute;
-    bottom: 44em;
-    
- }
-        .menu1 {
-            font-size: 12px;
-            width: 46%;
-         position: absolute;
-         left: 13em;
-         bottom: 12em;
+        nav ul {
+
+            flex-direction: column;
+            gap: 3em;
         }
- menu{
- width: 100%;
- font-size: 16px;
- height:60px ;
- 
- }
- menu ul a li{
-    font-size: 11px;
-    margin: 1em;
-    width: 9em;
-}
-        menu img {
-        visibility: visible;
-        }
-        menu ul {
-            margin-left: -6em;
-            
-        }
+
       
         #sc2{
             display: inline-table;
          text-align: center ;
         }
         #sc2 video{
-            width: 18em;
+            width: 50%;
             height: auto;
             margin-top: 3em;
-            margin-left: 1em;
+            margin-left: 0.4em;
         }
         #sc2 p {
             font-size: 18px;
             width: 60%;
-            margin-left: 6em;
             margin-top: 3em;
+            margin-left: 7em;
         }
+
+
+
+
         .contenedor1 {
-            margin-left:100px;
+            margin-left:15em;
             width: 33.8vmin;
             overflow: hidden;
             border-radius: 15px;
             box-shadow: 8px 4px 4px;
         }
         .contenedor{
-            margin-left: 9em;
-            width: 27.799999999999997vmin;
+            margin-left: 15em;
+            width: 33.8vmin;
             overflow: hidden;
             border-radius: 15px;
             box-shadow: 4px 4px 8px;
@@ -969,8 +949,7 @@ footer  p{
             animation: slide 16s infinite;
         }
         .contenedor1{
-            margin-left: 5em;
-            width: 27.799999999999997vmin;
+           
             overflow: hidden;
             border-radius: 15px;
             box-shadow: 4px 4px 8px;
@@ -994,21 +973,37 @@ footer  p{
         .lol{
             margin-bottom: 7em;
         }
+
+#sc3{
+
+    width: 100%;
+
+}
+
         #sc3 p{
-            margin-bottom: 0em;
+            margin-bottom: 2em;
             font-size: 12px;
         }
+
+
         #sc3 img {
             width: 70%;
             margin-top: 2em;
+           
         }
+
+
         #sc3 a {
             padding: 0.3em 1.5em;
         }
+
+
         #sc4 {
          font-size: 16px;
             flex-direction: column;
         }
+
+
         #sc4 {
             background-size: 350%;
             width: 100%;
@@ -1016,6 +1011,8 @@ footer  p{
             display: inline-table;
             text-align: center;
         }
+
+
         #sc4 img {
             width: 50%;
             height: auto;
@@ -1025,8 +1022,7 @@ footer  p{
         #sc4 h1 {
             font-size: 17px;
             margin-top: 2em;
-            margin-left: 5%;
-            margin-right: 5%;
+            
             text-align: center;
             position: absolute;
     left: 3em 
@@ -1040,93 +1036,88 @@ footer  p{
             
         }
         #sc5 {
-            height: 50em;
+            height: 80em;
             text-align: center;
             display: inline-table;
         }
         #sc5 img {
-            width: 50%;
+            width: 30%;
             height: auto;
-            margin-left: 8em;
+            margin-left: 2em;
             margin-top: 2em;
            
         }
         #sc5 h1 {
-            font-size: 15px;
-            margin-top: 1em;
-            margin-left: 2%;
-           ;
+            font-size: 20px;
+            margin-top: 2em;
             text-align: center;
             position: absolute;
-    right: 35em
+             right: 10em
         }
+
+
         #sc5 p {
-            font-size: 11px;
-          margin-left: 0.4em;
-            margin-top: 4em;
-            width: 100%;
-            height: 15em;
+            font-size: 17px;
+          
+            margin-top: 5em;
+            width: 70%;
+            height: 10em;
             text-align: center;
         }
+
         #sc6 {
             background-size: 400em;
             background-position-x: -140em;
             text-align: center;
             display: inline-table;
     
-            height: 46em;
+            height: 70em;
         }
         #sc6 img {
-            width: 90%;
+            width: 50%;
             height: auto;
             margin-top: 2em;
             margin-left: 5%;
         }
         #sc6 h1 {
             
-            font-size: 13px;
+            font-size: 17px;
             text-align: center;
     
             position: absolute;
-           left: 1em;
+           left: 7em;
 
 
         }
         #sc6 p {
 
-            font-size: 10px;
+            font-size: 17px;
             
            text-align: center;
            padding: 3em;
            position: absolute;
-           left: 1em;
+           left: 2em;
         }
         .ud {
             text-align: center;
-            margin-left: 3em;
-            height: 60em;
+            
+            height: 50em;
            
         }
         .ud h1 {
            
-            font-size: 20px;
-            margin-left: -20em;
-            margin-top: 2em;
-            margin-bottom: 1em;
-            
-            top: 0;
+            font-size: 25px;
+            top: 13em;
         }
         .ud img{
-            margin-left: 3em;
+            margin-left: 25em;
         }
+
         .ud p{  
             font-size: 17px ;
-
             width: 100%;
-             height: 12em;
-            padding-inline: 1em;
-            margin-top: 10em ;
-            margin-left: -29em;
+            left: 20em;
+            margin-top: 14em ;
             color: black;
             
         }
@@ -1143,59 +1134,61 @@ footer  p{
         }
         #sc9 {
             width: 100%;
-            
              display: inline-table;
              text-align: center;
              
            
          }
          #sc9 .mm {
-             width: 50%;
+             width: 20%;
              height: auto;
-             margin-top: -3em;
-             margin-left: 25%;
+             margin-top: 3em;
+             margin-left: 21em;
              
          }
          
          #sc9 img {
-             width: 50%;
+             width: 20%;
              height: auto;
-             margin-top: 7em;
-             margin-bottom: 2em;
-             margin-left: 25%;
+            
+             margin-top: 2em;
+             
+             margin-left: 21em;
              
          }
          #sc9 h1 {
      
              font-size: 30px;
-             position: absolute;
-             top: 93em;
-             left: 6em;
+             position: relative;
+             bottom: 2em;
+             left: -0.1em;
          }
          #sc9 p {
              font-size: 16px;
              width: 100%;
              height: 12em;
-             margin-top: 4em;
-            padding: 1em;
+             margin-top: 1em;
+            
              text-align: center;
          }
  #sc10{
+    width: 100%;
      font-size: 16px;
+     height: 100%;
     
  }
         #sc10 img {
-            width: 40%;
+            width: 30%;
             height: 27%;
             margin-top: 8%;
-            margin-left: 40%;
+            margin-left: 1%;
         }
         #sc10 p {
-            font-size: 12px;
-            width: 80%;
-            margin-top: 70%;
-            margin-left: -35em;
-            text-align: justify;
+            font-size: 17px;
+            width: 50%;
+            margin-top: 3em;
+            
+           
         }
         #sc11{
             width: 100%;
