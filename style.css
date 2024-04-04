@@ -241,7 +241,7 @@ nav ul a li{
     flex-direction: row-reverse;
     height: 800px;
     columns: 2;
-    
+    border: solid rgb(0, 0, 0) 2px;
 }
 #sc5 img{
     margin-top: 5em;
@@ -251,7 +251,7 @@ nav ul a li{
     margin-right:8em ;
     margin-left: 11em;
     border-radius: 7%;
-    
+    border: solid rgb(0, 0, 0) 2px;
 }
 
 #sc5 h1{
