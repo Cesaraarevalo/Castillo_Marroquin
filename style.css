@@ -199,7 +199,7 @@ nav ul a li{
     cursor: pointer;
   }
 #sc4{
-    background-image: url(video/hojas\ rojas\ .jpg);
+    background-image: url(img/hojas\ rojas\ .jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -272,7 +272,7 @@ nav ul a li{
     color: black;
 }
 #sc6{
-    background-image: url(video/gotas\ rojas\ .jpg);
+    background-image: url(img/gotas\ rojas\ .jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -352,7 +352,7 @@ height: 250px ;
 
 
 #sc8{
-    background-image: url(video/ubicacion.jpg);
+   background-image: url(img/ubicacion.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -361,6 +361,7 @@ height: 250px ;
 }
 #sc8 iframe{
     margin-top: 3em;
+    margin-left: 1em;
     width: 1400px;
     height: 700px;
 }
@@ -411,7 +412,7 @@ height: 250px ;
     flex-direction: row;
     height: 600px;
     columns: 2;
-    background-image: url(video/HOJAS.jpg);
+    background-image: url(img/HOJAS.jpg);
     background-size: 100%;
 }
 #sc10 img{
@@ -426,7 +427,7 @@ height: 250px ;
 }
 #sc10 p{
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     width: 50em ;
     height: 20em ;
     line-height: 1.8;
