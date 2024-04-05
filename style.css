@@ -362,8 +362,8 @@ height: 250px ;
 #sc8 iframe{
     margin-top: 3em;
     margin-left: 1em;
-    width: 1400px;
-    height: 700px;
+    width: 1200px;
+    height: 600px;
 }
 #sc9{
     display: flex;
@@ -625,9 +625,9 @@ footer  p{
         padding: 0.3em 1.5em;
     }
     #sc4 {
-        background-size: 320%;
+        background-size: 450%;
         width: 100%;
-        height: 75em;
+        height: 55em;
         display: inline-table;
         text-align: center;
     }
@@ -654,14 +654,15 @@ footer  p{
         
     }
     #sc5 {
-        height: 83em;
+        height: 88em;
         text-align: center;
         display: inline-table;
     }
     #sc5 img {
-        width: 40%;
+        width: 45%;
         height: auto;
         margin-top: 2em;
+        margin-left: 1em;
         
        
     }
@@ -674,7 +675,7 @@ footer  p{
     #sc5 p {
         font-size: 17px;
         width: 80%;
-        margin-top: 2em;
+        margin-top: 3em;
        padding: 2em;
         text-align: center;
     }
@@ -686,7 +687,7 @@ footer  p{
         text-align: center;
         display: inline-table;
 
-        height: 75em;
+        height: 85em;
     }
     #sc6 img {
         width: 80%;
@@ -723,7 +724,7 @@ footer  p{
         top: 0;
     }
     .ud img{
-        margin-left: 5em;
+        margin-left: 3em;
     }
     .ud p{  
         width: 100%;
@@ -765,7 +766,7 @@ footer  p{
     }
     #sc9 {
        width: 100%;
-       
+       height: 50em;
         display: inline-table;
         text-align: center;
         
@@ -773,9 +774,9 @@ footer  p{
     }
     #sc9 .mm {
         width: 20%;
-        height: 70em;
+        height: auto;
         margin-top: 2em;
-        margin-left: 13em;
+        margin-left: 9em;
        
         
     }
@@ -785,7 +786,7 @@ footer  p{
         width: 20%;
         height: auto;
         margin-top: 4em;
-        margin-left: 10em;
+        margin-left: 9em;
         
     }
     #sc9 h1 {
@@ -805,13 +806,13 @@ footer  p{
     }
     #sc10{
         width: 100%;
-        
+        height: 50em;
         display: inline-table;
         text-align: center;
     }
     #sc10 img {
         width: 77%;
-        height: 70em;
+        height: auto;
        
         margin-left: 5%;
     }
@@ -825,7 +826,6 @@ footer  p{
     }
     #sc11{
         width: 100%;
-        height: 50em;
     }
     #sc11 div{
        text-align: center;
